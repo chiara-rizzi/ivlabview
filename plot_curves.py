@@ -13,14 +13,13 @@ print('Hello Chiara')
 
 parser = argparse.ArgumentParser(description='Plot IV Curves from LabVIEW')
 parser.add_argument('--fileNames', type=str, nargs='*',
-                    default=['Data/HPK-Type-1.1-LG1-SE2-1/HPK-Type-1.1-LG1-SE2-1_2019-06-05_9.iv',
-                             'Data/HPK-Type-4-LG1-SE5-W10/HPK-Type-4-LG1-SE5-W10_2019-05-28_5.iv'],
+                    default=['Data/HPK-Type-1.1-LG1-SE2-1/HPK-Type-1.1-LG1-SE2-1_2019-06-05_10.iv'],
                     help='name of the files with the data to be plotted')
 parser.add_argument('--plotName', type=str,
                     default='plot',
                     help='Name of the plot (do not include the extension)')
 parser.add_argument('--grounded', type=int,
-                    default=0,
+                    default=1,
                     help='True: grounded meas (3 columns), False: floating meas (2 columns)')
 args = parser.parse_args()
 
