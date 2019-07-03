@@ -1,0 +1,65 @@
+IV with two I-meter
+:Program Version
+13.8.2003 Moll, 4.2008 Fahrer, 6.2011 Gabrysch
+:Program Library
+CVIV.llb
+:start
+05/06/2019 11:37:45
+:stop
+05/06/2019 11:38:16
+:elapsed [s]
+31.0
+:gpib bus delay [ms]
+50
+:device
+HPK-Type-1.1-LG1-SE2-1
+:tester
+asoaresc
+:environment
+Probe Station (28-2-019)
+:comment
+needle on pad config, guard ring grounded up to 224V
+:annealing time [min]
+<not set>
+:material
+p FZ
+:temperature [C]
+20.00
+:ToolID
+1102
+:GuardRingConnection
+1
+:Region
+0
+:Fluence
+0.00
+:Particle
+p KiT
+:Resistivity[ohm cm]
+0.0
+:AnnealingHistory[C,min]
+
+:Instruments
+I meter: Keithley 6487
+V source: Keithley 2410
+- integration time [ms]: 20.0
+- internal averaging: 3
+- compliance [A or V]: 1.000E-6
+:ramp up step [V], delay [s], down step [V], delay[s]
+2.0, 1.0, 20.0, 0.5
+:set voltage start [V], voltage stop [V], number of steps
+-0.0, -224.0, 112
+:measured voltage start [V], voltage stop [V], number of steps
+-0.0, -10.0, 6
+:step mode
+linear
+:legend
+bias [V]	Total Current [A]	Pad Current [A]
+BEGIN
+-0.000000E+0	-1.097825E-9	-1.887664E-8
+-2.000000E+0	6.879046E-10	-3.966260E-11
+-4.000000E+0	4.663866E-10	-4.172675E-11
+-6.000000E+0	4.550460E-10	-5.146339E-11
+-8.000000E+0	4.610259E-10	-5.943537E-11
+-1.000000E+1	5.230132E-10	-6.530699E-11
+END
