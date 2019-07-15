@@ -2,9 +2,54 @@
 
 What you can find in this README
 * [How to take data at the probe station](#takedata)
+* How to plot the data starting from the LabVIEW files
 
 ## Take data
 
+Once in the lab: 
+
+1. Turn on computer
+  * For LabView: select Windows 
+  * Password: 161-lab-enter (make sure keyboard is on FRA French (Switzerland))
+1. Documents —> Labview project —> cviv-daq —> double click on CVIV 
+A list of options opens in LLB Manager 
+Select CV-IV-control.vi 
+Click on arrow in the bar menu (to go from “modification” mode to “user” mode)
+
+Settings: 
+***Sample and environment parameters***
+Device name: write sensor name 
+Select pFZ (it puts the voltage to negative) 
+Tester: put your name
+
+***Basic measurement conditions***
+Type of measurement - choose one of these (depending on what you want to do)
+IV: floating guard ring 
+IV with two I-meter: grounded guard ring
+
+Measurement configuration
+Start: -0
+Stop: -140 (it depends on the sensor!!) 
+Number of steps: 70 (calculate the number of steps such that you have steps of 2V) 
+Compl. Stop: ON
+
+***Instruments settings***
+GPIB: 21
+Integration time: 3 [20 ms]
+Averaging (count): 3 
+Compliance: 1e-6 
+
+Remember to check that boh keithleys are powered 
+To start: Start measurement 
+
+PLOTS
+Total current: pad + guard ring 
+Pad current: only the sensor 
+Guard ring only: difference between total and pad currents 
+Note: the plots from labview show the signed values, so new points (higher absolute value of voltage, but lower signed value) appear on the left 
+
+Data is stored in Documents —> Labview project —> cviv-daq —> CVIV folder
+Text files can be plotted with the python code in the link above 
 
 ## How to plot the data
 
