@@ -1,8 +1,8 @@
 # IV Curves
 
 What you can find in this README
-* How to take data at the probe station for IV measurements
-* How to plot the data starting from the LabVIEW files
+* How to [take data](#take-data) at the probe station for IV measurements
+* How to [plot the data](#plot-the-data) starting from the LabVIEW files
 
 ## Take data
 
