@@ -15,24 +15,24 @@ Once in the lab:
 
 A list of options opens in LLB Manager. Select CV-IV-control.vi and click on arrow in the bar menu (to go from “modification” mode to “user” mode).
 
-### Settings: 
-#### Sample and environment parameters
+### Settings
+###### Sample and environment parameters
 * Device name: write sensor name 
 * Select pFZ (it puts the voltage to negative) 
 * Tester: put your name
 
-#### Basic measurement conditions
+###### Basic measurement conditions
 * Type of measurement - choose one of these (depending on what you want to do)
   *IV: floating guard ring 
   *IV with two I-meter: grounded guard ring
 
-#### Measurement configuration
+###### Measurement configuration
 * Start: -0
 * Stop: -140 (it depends on the sensor!!) 
 * Number of steps: 70 (calculate the number of steps such that you have steps of 2V) 
 * Compl. Stop: ON
 
-#### Instruments settings
+###### Instruments settings
 * GPIB: 21
 * Integration time: 3 [20 ms]
 * Averaging (count): 3 
