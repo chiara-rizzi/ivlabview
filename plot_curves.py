@@ -6,8 +6,6 @@ import matplotlib.cm as cm
 import argparse
 import sys
 
-print('Hello Chiara')
-
 # header 1: bias [V]    Total Current [A]    Pad Current [A]
 # header 2: bias [V]        Current [A]
 
