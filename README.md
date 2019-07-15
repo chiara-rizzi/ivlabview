@@ -1,6 +1,12 @@
-# Plot IV Curves from LabVIEW
+# IV Curves
 
-## How to run the code
+What you can find in this README
+* [How to take data at the probe station](#takedata)
+
+## Take data
+
+
+## How to plot the data
 
 Example:
 ```
